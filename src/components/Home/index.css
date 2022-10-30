@@ -1,0 +1,80 @@
+.background-container {
+  min-height: 100vh;
+}
+.home-page-bg-container {
+  background-image: url('https://res.cloudinary.com/djqfb6spf/image/upload/v1667032548/Screenshot_20221029_135057_fhlbem.png');
+  min-height: 100vh;
+  width: 100%;
+  flex-shrink: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.nav-bg-container {
+  background-color: transparent;
+  width: 100%;
+  /* padding: 40px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-website-name {
+  font-family: 'Brush Script Std';
+  font-size: 30px;
+  color: white;
+}
+.Login-btn {
+  background-color: transparent;
+  font-family: 'Brush Script Std';
+  font-size: 20px;
+  color: white;
+  border: 0px;
+}
+.home-page-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+  border: 0px;
+  text-align: center;
+}
+.home-register-btn {
+  background-color: #3cdfff;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+  text-align: center;
+  border: 0px;
+  border-radius: 2px;
+}
+
+.home-register-btn:hover {
+  background-color: #ffb6c1;
+}
+.nav-login-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-bg-container {
+  background-image: url('https://img.freepik.com/free-photo/hindu-wedding-couple-walks-along-ocean-shore_8353-8905.jpg?w=900&t=st=1667147986~exp=1667148586~hmac=aec212368400fc7414c99bba940d8351b3eabd8e54213fab6d6c1f26ec24d0fd');
+  min-height: 100vh;
+  width: 100%;
+  flex-shrink: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
